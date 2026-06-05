@@ -190,3 +190,5 @@ generator/
     ├── tech_stack.py              # Language bars + radar chart (850xN)
     └── projects_constellation.py  # Project cards (850x220)
 ```
+
+<!-- trigger workflow -->
