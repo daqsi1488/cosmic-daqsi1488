@@ -1,0 +1,25 @@
+username: daqsi1488                    # Ваш GitHub username
+profile:
+  name: DAQSI                          # Ваше имя
+  tagline: "Python & Web Developer | C++ | C# | Lua"  # Ваша фраза
+  location: Russia
+  bio: "Beginning programmer passionate about learning and building"
+
+# Настройка трёх "рук" галактики (ваши основные направления)
+galaxy_arms:
+  - name: "Python & Web"
+    color: "synapse_cyan"               # Цвет ветки
+    tech_items: ["Python", "Flask", "Django", "HTML", "CSS", "JS"]
+  - name: "Systems & Game Dev"
+    color: "dendrite_violet"
+    tech_items: ["C++", "C#", "Lua", "Algorithms", "Game Dev"]
+  - name: "Tools"
+    color: "axon_amber"
+    tech_items: ["Git", "GitHub", "VSCode", "PyCharm", "VS2022"]
+
+# Ваши проекты (укажите свои репозитории)
+projects:
+  - repo: daqsi1488/first-python-scripts
+    arm: 0                               # К какой ветке относится (0,1,2)
+    description: "Python exercises and mini-projects"
+  # Добавьте другие проекты по мере появления
