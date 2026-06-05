@@ -5,9 +5,7 @@ on:
     - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
-    paths:
-      - "config.yml"
-      - "generator/**"
+    branches: [ "main" ]
 
 jobs:
   generate:
